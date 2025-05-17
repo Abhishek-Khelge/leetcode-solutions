@@ -115,6 +115,6 @@ public class Solution {
 ```
 
 ### Complexity Analysis
-- **Time Complexity**: O(log n), because we're processing roughly half of the number's digits.
+- **Time Complexity**: O(n/2) => O(n), because we're processing roughly half of the number's digits.
 - **Space Complexity**: O(1), as we only use a few integer variables for temporary storage.
 
